@@ -1,0 +1,158 @@
+Dependencies for Project 'MPU_TEST', Target 'Cortex-M0 SDK - Simulator': (DO NOT MODIFY !)
+F (.\startup\startup_CMSDK_CM0.s)(0x542BEC20)(--cpu Cortex-M0 --li -g --apcs=interwork -I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ARM--list .\out\startup_cmsdk_cm0.lst --xref -o .\out\startup_cmsdk_cm0.o --depend .\out\startup_cmsdk_cm0.d)
+F (.\startup\system_CMSDK.c)(0x542BEC20)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I.\..\dk_apps\src\plf\refip\src\driver\i2c_eeprom -I.\..\dk_apps\src\plf\refip\src\driver\spi -I.\..\dk_apps\src\plf\refip\src\arch -I.\..\dk_apps\src\plf\refip\src\arch\compiler\rvds -I.\..\dk_apps\src\plf\refip\src\arch\ll\rvds -I.\..\dk_apps\src\plf\refip\src\driver\reg -I.\..\dk_apps\src\dialog\include -I.\include -I.\..\dk_apps\src\plf\refip\src\driver\gpio -I.\..\dk_apps\src\plf\refip\src\driver\adc -I.\..\dk_apps\src\plf\refip\src\driver\battery -I.\..\dk_apps\src\plf\refip\src\driver\spi_flash -I.\..\dk_apps\src\modules\app\api -I.\..\dk_apps\src\ip\ble\hl\src\rwble_hl -I..\dk_apps\src\plf\refip\src\driver\wkupct_quadec -I..\dk_apps\src\plf\refip\src\driver\pwm -I.\eMPL --c99 --thumb -c-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ARM-o .\out\system_cmsdk.o --omf_browse .\out\system_cmsdk.crf --depend .\out\system_cmsdk.d)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x5425882F)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\global_io.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\datasheet.h)(0x542BEC20)
+F (.\src\peripherals.c)(0x55097B0C)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I.\..\dk_apps\src\plf\refip\src\driver\i2c_eeprom -I.\..\dk_apps\src\plf\refip\src\driver\spi -I.\..\dk_apps\src\plf\refip\src\arch -I.\..\dk_apps\src\plf\refip\src\arch\compiler\rvds -I.\..\dk_apps\src\plf\refip\src\arch\ll\rvds -I.\..\dk_apps\src\plf\refip\src\driver\reg -I.\..\dk_apps\src\dialog\include -I.\include -I.\..\dk_apps\src\plf\refip\src\driver\gpio -I.\..\dk_apps\src\plf\refip\src\driver\adc -I.\..\dk_apps\src\plf\refip\src\driver\battery -I.\..\dk_apps\src\plf\refip\src\driver\spi_flash -I.\..\dk_apps\src\modules\app\api -I.\..\dk_apps\src\ip\ble\hl\src\rwble_hl -I..\dk_apps\src\plf\refip\src\driver\wkupct_quadec -I..\dk_apps\src\plf\refip\src\driver\pwm -I.\eMPL --c99 --thumb -c-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ARM-o .\out\peripherals.o --omf_browse .\out\peripherals.crf --depend .\out\peripherals.d)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\global_io.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\datasheet.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\core_cm0.h)(0x54FC3260)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x5425882F)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\core_cmInstr.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\core_cmFunc.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\MPU专题实验\include\peripherals.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\MPU专题实验\include\i2c_func.h)(0x553B8BE1)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\MPU专题实验\include\gpio.h)(0x54FABDE3)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\plf\refip\src\arch\arch.h)(0x55266D87)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\plf\refip\src\arch\compiler\rvds\compiler.h)(0x542BEC20)
+I (D:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\plf\refip\src\arch\arch_sleep.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\plf\refip\src\arch\ll\rvds\ll.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\reg_intc.h)(0x5527F1E7)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\_reg_intc.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\plf\refip\src\driver\reg\reg_access.h)(0x5527F13B)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\ARMCM0.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\system_ARMCM0.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\MPU专题实验\include\uart_func.h)(0x552A15DF)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\MPU专题实验\include\uart.h)(0x5505A63A)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\MPU专题实验\include\gpio_func.h)(0x550FCC57)
+F (.\src\main.c)(0x553B95DD)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I.\..\dk_apps\src\plf\refip\src\driver\i2c_eeprom -I.\..\dk_apps\src\plf\refip\src\driver\spi -I.\..\dk_apps\src\plf\refip\src\arch -I.\..\dk_apps\src\plf\refip\src\arch\compiler\rvds -I.\..\dk_apps\src\plf\refip\src\arch\ll\rvds -I.\..\dk_apps\src\plf\refip\src\driver\reg -I.\..\dk_apps\src\dialog\include -I.\include -I.\..\dk_apps\src\plf\refip\src\driver\gpio -I.\..\dk_apps\src\plf\refip\src\driver\adc -I.\..\dk_apps\src\plf\refip\src\driver\battery -I.\..\dk_apps\src\plf\refip\src\driver\spi_flash -I.\..\dk_apps\src\modules\app\api -I.\..\dk_apps\src\ip\ble\hl\src\rwble_hl -I..\dk_apps\src\plf\refip\src\driver\wkupct_quadec -I..\dk_apps\src\plf\refip\src\driver\pwm -I.\eMPL --c99 --thumb -c-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ARM-o .\out\main.o --omf_browse .\out\main.crf --depend .\out\main.d)
+I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\global_io.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\datasheet.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\MPU专题实验\include\peripherals.h)(0x542BEC20)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x5425882F)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\MPU专题实验\include\i2c_func.h)(0x553B8BE1)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\MPU专题实验\include\gpio_func.h)(0x550FCC57)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\MPU专题实验\include\uart_func.h)(0x552A15DF)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\MPU专题实验\eMPL\motion.h)(0x553B90D9)
+F (.\src\i2c_eeprom.c)(0x553B8BE0)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I.\..\dk_apps\src\plf\refip\src\driver\i2c_eeprom -I.\..\dk_apps\src\plf\refip\src\driver\spi -I.\..\dk_apps\src\plf\refip\src\arch -I.\..\dk_apps\src\plf\refip\src\arch\compiler\rvds -I.\..\dk_apps\src\plf\refip\src\arch\ll\rvds -I.\..\dk_apps\src\plf\refip\src\driver\reg -I.\..\dk_apps\src\dialog\include -I.\include -I.\..\dk_apps\src\plf\refip\src\driver\gpio -I.\..\dk_apps\src\plf\refip\src\driver\adc -I.\..\dk_apps\src\plf\refip\src\driver\battery -I.\..\dk_apps\src\plf\refip\src\driver\spi_flash -I.\..\dk_apps\src\modules\app\api -I.\..\dk_apps\src\ip\ble\hl\src\rwble_hl -I..\dk_apps\src\plf\refip\src\driver\wkupct_quadec -I..\dk_apps\src\plf\refip\src\driver\pwm -I.\eMPL --c99 --thumb -c-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ARM-o .\out\i2c_eeprom.o --omf_browse .\out\i2c_eeprom.crf --depend .\out\i2c_eeprom.d)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x5425882F)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\global_io.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\datasheet.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\MPU专题实验\include\gpio.h)(0x54FABDE3)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\plf\refip\src\arch\arch.h)(0x55266D87)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\plf\refip\src\arch\compiler\rvds\compiler.h)(0x542BEC20)
+I (D:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\plf\refip\src\arch\arch_sleep.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\plf\refip\src\arch\ll\rvds\ll.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\reg_intc.h)(0x5527F1E7)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\_reg_intc.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\plf\refip\src\driver\reg\reg_access.h)(0x5527F13B)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\ARMCM0.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\core_cm0.h)(0x54FC3260)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\core_cmInstr.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\core_cmFunc.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\system_ARMCM0.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\MPU专题实验\include\i2c_eeprom.h)(0x553B8B0A)
+F (.\src\i2c_func.c)(0x553B8BE1)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I.\..\dk_apps\src\plf\refip\src\driver\i2c_eeprom -I.\..\dk_apps\src\plf\refip\src\driver\spi -I.\..\dk_apps\src\plf\refip\src\arch -I.\..\dk_apps\src\plf\refip\src\arch\compiler\rvds -I.\..\dk_apps\src\plf\refip\src\arch\ll\rvds -I.\..\dk_apps\src\plf\refip\src\driver\reg -I.\..\dk_apps\src\dialog\include -I.\include -I.\..\dk_apps\src\plf\refip\src\driver\gpio -I.\..\dk_apps\src\plf\refip\src\driver\adc -I.\..\dk_apps\src\plf\refip\src\driver\battery -I.\..\dk_apps\src\plf\refip\src\driver\spi_flash -I.\..\dk_apps\src\modules\app\api -I.\..\dk_apps\src\ip\ble\hl\src\rwble_hl -I..\dk_apps\src\plf\refip\src\driver\wkupct_quadec -I..\dk_apps\src\plf\refip\src\driver\pwm -I.\eMPL --c99 --thumb -c-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ARM-o .\out\i2c_func.o --omf_browse .\out\i2c_func.crf --depend .\out\i2c_func.d)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\MPU专题实验\include\i2c_eeprom.h)(0x553B8B0A)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x5425882F)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\MPU专题实验\include\i2c_func.h)(0x553B8BE1)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\MPU专题实验\include\uart.h)(0x5505A63A)
+F (.\src\gpio.c)(0x54FC23C0)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I.\..\dk_apps\src\plf\refip\src\driver\i2c_eeprom -I.\..\dk_apps\src\plf\refip\src\driver\spi -I.\..\dk_apps\src\plf\refip\src\arch -I.\..\dk_apps\src\plf\refip\src\arch\compiler\rvds -I.\..\dk_apps\src\plf\refip\src\arch\ll\rvds -I.\..\dk_apps\src\plf\refip\src\driver\reg -I.\..\dk_apps\src\dialog\include -I.\include -I.\..\dk_apps\src\plf\refip\src\driver\gpio -I.\..\dk_apps\src\plf\refip\src\driver\adc -I.\..\dk_apps\src\plf\refip\src\driver\battery -I.\..\dk_apps\src\plf\refip\src\driver\spi_flash -I.\..\dk_apps\src\modules\app\api -I.\..\dk_apps\src\ip\ble\hl\src\rwble_hl -I..\dk_apps\src\plf\refip\src\driver\wkupct_quadec -I..\dk_apps\src\plf\refip\src\driver\pwm -I.\eMPL --c99 --thumb -c-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ARM-o .\out\gpio.o --omf_browse .\out\gpio.crf --depend .\out\gpio.d)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\plf\refip\src\arch\arch.h)(0x55266D87)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x5425882F)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\plf\refip\src\arch\compiler\rvds\compiler.h)(0x542BEC20)
+I (D:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\plf\refip\src\arch\arch_sleep.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\plf\refip\src\arch\ll\rvds\ll.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\reg_intc.h)(0x5527F1E7)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\_reg_intc.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\plf\refip\src\driver\reg\reg_access.h)(0x5527F13B)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\ARMCM0.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\global_io.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\datasheet.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\core_cm0.h)(0x54FC3260)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\core_cmInstr.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\core_cmFunc.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\system_ARMCM0.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\MPU专题实验\include\gpio.h)(0x54FABDE3)
+F (.\src\gpio_func.c)(0x552A168F)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I.\..\dk_apps\src\plf\refip\src\driver\i2c_eeprom -I.\..\dk_apps\src\plf\refip\src\driver\spi -I.\..\dk_apps\src\plf\refip\src\arch -I.\..\dk_apps\src\plf\refip\src\arch\compiler\rvds -I.\..\dk_apps\src\plf\refip\src\arch\ll\rvds -I.\..\dk_apps\src\plf\refip\src\driver\reg -I.\..\dk_apps\src\dialog\include -I.\include -I.\..\dk_apps\src\plf\refip\src\driver\gpio -I.\..\dk_apps\src\plf\refip\src\driver\adc -I.\..\dk_apps\src\plf\refip\src\driver\battery -I.\..\dk_apps\src\plf\refip\src\driver\spi_flash -I.\..\dk_apps\src\modules\app\api -I.\..\dk_apps\src\ip\ble\hl\src\rwble_hl -I..\dk_apps\src\plf\refip\src\driver\wkupct_quadec -I..\dk_apps\src\plf\refip\src\driver\pwm -I.\eMPL --c99 --thumb -c-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ARM-o .\out\gpio_func.o --omf_browse .\out\gpio_func.crf --depend .\out\gpio_func.d)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\MPU专题实验\include\gpio.h)(0x54FABDE3)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\plf\refip\src\arch\arch.h)(0x55266D87)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x5425882F)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\plf\refip\src\arch\compiler\rvds\compiler.h)(0x542BEC20)
+I (D:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\plf\refip\src\arch\arch_sleep.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\plf\refip\src\arch\ll\rvds\ll.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\reg_intc.h)(0x5527F1E7)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\_reg_intc.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\plf\refip\src\driver\reg\reg_access.h)(0x5527F13B)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\ARMCM0.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\global_io.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\datasheet.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\core_cm0.h)(0x54FC3260)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\core_cmInstr.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\core_cmFunc.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\system_ARMCM0.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\MPU专题实验\include\gpio_func.h)(0x550FCC57)
+F (.\src\uart.c)(0x550FD6CD)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I.\..\dk_apps\src\plf\refip\src\driver\i2c_eeprom -I.\..\dk_apps\src\plf\refip\src\driver\spi -I.\..\dk_apps\src\plf\refip\src\arch -I.\..\dk_apps\src\plf\refip\src\arch\compiler\rvds -I.\..\dk_apps\src\plf\refip\src\arch\ll\rvds -I.\..\dk_apps\src\plf\refip\src\driver\reg -I.\..\dk_apps\src\dialog\include -I.\include -I.\..\dk_apps\src\plf\refip\src\driver\gpio -I.\..\dk_apps\src\plf\refip\src\driver\adc -I.\..\dk_apps\src\plf\refip\src\driver\battery -I.\..\dk_apps\src\plf\refip\src\driver\spi_flash -I.\..\dk_apps\src\modules\app\api -I.\..\dk_apps\src\ip\ble\hl\src\rwble_hl -I..\dk_apps\src\plf\refip\src\driver\wkupct_quadec -I..\dk_apps\src\plf\refip\src\driver\pwm -I.\eMPL --c99 --thumb -c-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ARM-o .\out\uart.o --omf_browse .\out\uart.crf --depend .\out\uart.d)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\global_io.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\datasheet.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\MPU专题实验\include\gpio.h)(0x54FABDE3)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\plf\refip\src\arch\arch.h)(0x55266D87)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x5425882F)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\plf\refip\src\arch\compiler\rvds\compiler.h)(0x542BEC20)
+I (D:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\plf\refip\src\arch\arch_sleep.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\plf\refip\src\arch\ll\rvds\ll.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\reg_intc.h)(0x5527F1E7)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\_reg_intc.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\plf\refip\src\driver\reg\reg_access.h)(0x5527F13B)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\ARMCM0.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\core_cm0.h)(0x54FC3260)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\core_cmInstr.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\core_cmFunc.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\dk_apps\src\dialog\include\system_ARMCM0.h)(0x542BEC20)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\MPU专题实验\include\uart.h)(0x5505A63A)
+F (.\src\uart_func.c)(0x553B9329)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I.\..\dk_apps\src\plf\refip\src\driver\i2c_eeprom -I.\..\dk_apps\src\plf\refip\src\driver\spi -I.\..\dk_apps\src\plf\refip\src\arch -I.\..\dk_apps\src\plf\refip\src\arch\compiler\rvds -I.\..\dk_apps\src\plf\refip\src\arch\ll\rvds -I.\..\dk_apps\src\plf\refip\src\driver\reg -I.\..\dk_apps\src\dialog\include -I.\include -I.\..\dk_apps\src\plf\refip\src\driver\gpio -I.\..\dk_apps\src\plf\refip\src\driver\adc -I.\..\dk_apps\src\plf\refip\src\driver\battery -I.\..\dk_apps\src\plf\refip\src\driver\spi_flash -I.\..\dk_apps\src\modules\app\api -I.\..\dk_apps\src\ip\ble\hl\src\rwble_hl -I..\dk_apps\src\plf\refip\src\driver\wkupct_quadec -I..\dk_apps\src\plf\refip\src\driver\pwm -I.\eMPL --c99 --thumb -c-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ARM-o .\out\uart_func.o --omf_browse .\out\uart_func.crf --depend .\out\uart_func.d)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\MPU专题实验\include\uart.h)(0x5505A63A)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x5425882F)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\MPU专题实验\include\uart_func.h)(0x552A15DF)
+F (.\eMPL\inv_mpu.c)(0x553B8BE7)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I.\..\dk_apps\src\plf\refip\src\driver\i2c_eeprom -I.\..\dk_apps\src\plf\refip\src\driver\spi -I.\..\dk_apps\src\plf\refip\src\arch -I.\..\dk_apps\src\plf\refip\src\arch\compiler\rvds -I.\..\dk_apps\src\plf\refip\src\arch\ll\rvds -I.\..\dk_apps\src\plf\refip\src\driver\reg -I.\..\dk_apps\src\dialog\include -I.\include -I.\..\dk_apps\src\plf\refip\src\driver\gpio -I.\..\dk_apps\src\plf\refip\src\driver\adc -I.\..\dk_apps\src\plf\refip\src\driver\battery -I.\..\dk_apps\src\plf\refip\src\driver\spi_flash -I.\..\dk_apps\src\modules\app\api -I.\..\dk_apps\src\ip\ble\hl\src\rwble_hl -I..\dk_apps\src\plf\refip\src\driver\wkupct_quadec -I..\dk_apps\src\plf\refip\src\driver\pwm -I.\eMPL --c99 --thumb -c-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ARM-o .\out\inv_mpu.o --omf_browse .\out\inv_mpu.crf --depend .\out\inv_mpu.d)
+I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x5425882F)
+I (D:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (D:\Keil\ARM\ARMCC\include\math.h)(0x51C7B744)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\MPU专题实验\eMPL\inv_mpu.h)(0x545E137C)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\MPU专题实验\include\i2c_eeprom.h)(0x553B8B0A)
+F (.\eMPL\inv_mpu_dmp_motion_driver.c)(0x54FE9F25)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I.\..\dk_apps\src\plf\refip\src\driver\i2c_eeprom -I.\..\dk_apps\src\plf\refip\src\driver\spi -I.\..\dk_apps\src\plf\refip\src\arch -I.\..\dk_apps\src\plf\refip\src\arch\compiler\rvds -I.\..\dk_apps\src\plf\refip\src\arch\ll\rvds -I.\..\dk_apps\src\plf\refip\src\driver\reg -I.\..\dk_apps\src\dialog\include -I.\include -I.\..\dk_apps\src\plf\refip\src\driver\gpio -I.\..\dk_apps\src\plf\refip\src\driver\adc -I.\..\dk_apps\src\plf\refip\src\driver\battery -I.\..\dk_apps\src\plf\refip\src\driver\spi_flash -I.\..\dk_apps\src\modules\app\api -I.\..\dk_apps\src\ip\ble\hl\src\rwble_hl -I..\dk_apps\src\plf\refip\src\driver\wkupct_quadec -I..\dk_apps\src\plf\refip\src\driver\pwm -I.\eMPL --c99 --thumb -c-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ARM-o .\out\inv_mpu_dmp_motion_driver.o --omf_browse .\out\inv_mpu_dmp_motion_driver.crf --depend .\out\inv_mpu_dmp_motion_driver.d)
+I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x5425882F)
+I (D:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (D:\Keil\ARM\ARMCC\include\math.h)(0x51C7B744)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\MPU专题实验\eMPL\inv_mpu.h)(0x545E137C)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\MPU专题实验\eMPL\inv_mpu_dmp_motion_driver.h)(0x53D6CE13)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\MPU专题实验\eMPL\dmpKey.h)(0x53D6CE13)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\MPU专题实验\eMPL\dmpmap.h)(0x53D6CE13)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\MPU专题实验\include\i2c_eeprom.h)(0x553B8B0A)
+F (.\eMPL\motion.c)(0x553B938B)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I.\..\dk_apps\src\plf\refip\src\driver\i2c_eeprom -I.\..\dk_apps\src\plf\refip\src\driver\spi -I.\..\dk_apps\src\plf\refip\src\arch -I.\..\dk_apps\src\plf\refip\src\arch\compiler\rvds -I.\..\dk_apps\src\plf\refip\src\arch\ll\rvds -I.\..\dk_apps\src\plf\refip\src\driver\reg -I.\..\dk_apps\src\dialog\include -I.\include -I.\..\dk_apps\src\plf\refip\src\driver\gpio -I.\..\dk_apps\src\plf\refip\src\driver\adc -I.\..\dk_apps\src\plf\refip\src\driver\battery -I.\..\dk_apps\src\plf\refip\src\driver\spi_flash -I.\..\dk_apps\src\modules\app\api -I.\..\dk_apps\src\ip\ble\hl\src\rwble_hl -I..\dk_apps\src\plf\refip\src\driver\wkupct_quadec -I..\dk_apps\src\plf\refip\src\driver\pwm -I.\eMPL --c99 --thumb -c-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ARM-o .\out\motion.o --omf_browse .\out\motion.crf --depend .\out\motion.d)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\MPU专题实验\eMPL\motion.h)(0x553B90D9)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\MPU专题实验\eMPL\inv_mpu.h)(0x545E137C)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\MPU专题实验\eMPL\inv_mpu_dmp_motion_driver.h)(0x53D6CE13)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\MPU专题实验\eMPL\dmpKey.h)(0x53D6CE13)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\MPU专题实验\eMPL\dmpmap.h)(0x53D6CE13)
+I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (D:\Keil\ARM\ARMCC\include\math.h)(0x51C7B744)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\MPU专题实验\include\uart.h)(0x5505A63A)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x5425882F)
+I (F:\金刚狼-硬件\金刚狼开发板\教程\专题\MPU专题实验\include\i2c_eeprom.h)(0x553B8B0A)
