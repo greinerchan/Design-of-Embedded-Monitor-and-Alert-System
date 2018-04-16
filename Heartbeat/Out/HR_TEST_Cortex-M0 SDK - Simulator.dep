@@ -1,0 +1,97 @@
+Dependencies for Project 'HR_TEST', Target 'Cortex-M0 SDK - Simulator': (DO NOT MODIFY !)
+F (.\startup\startup_CMSDK_CM0.s)(0x550A8E41)(--cpu Cortex-M0 --li --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\EE\KEIL\ARM\RV31\INC-IC:\EE\KEIL\ARM\CMSIS\Include-IC:\EE\KEIL\ARM\Inc\ARM--pd "__UVISION_VERSION SETA 523"--list .\out\startup_cmsdk_cm0.lst --xref -o .\out\startup_cmsdk_cm0.o --depend .\out\startup_cmsdk_cm0.d)
+F (.\startup\system_CMSDK.c)(0x542BEC20)(--c99 -c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork -I .\..\dk_apps\src\plf\refip\src\arch -I .\..\dk_apps\src\plf\refip\src\arch\compiler\rvds -I .\..\dk_apps\src\plf\refip\src\arch\ll\rvds -I .\..\dk_apps\src\plf\refip\src\driver\reg -I .\..\dk_apps\src\dialog\include -I .\include -I .\..\dk_apps\src\plf\refip\src\driver\gpio -I .\..\dk_apps\src\modules\app\api -I .\..\dk_apps\src\ip\ble\hl\src\rwble_hl -I ..\dk_apps\src\plf\refip\src\driver\wkupct_quadec --c99 --thumb -c-IC:\EE\KEIL\ARM\RV31\INC-IC:\EE\KEIL\ARM\CMSIS\Include-IC:\EE\KEIL\ARM\Inc\ARM-D__UVISION_VERSION="523"-o .\out\system_cmsdk.o --omf_browse .\out\system_cmsdk.crf --depend .\out\system_cmsdk.d)
+I (C:\EE\KEIL\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
+I (.\..\dk_apps\src\dialog\include\global_io.h)(0x542BEC20)
+I (.\..\dk_apps\src\dialog\include\datasheet.h)(0x542BEC20)
+F (.\src\peripherals.c)(0x552544C4)(--c99 -c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork -I .\..\dk_apps\src\plf\refip\src\arch -I .\..\dk_apps\src\plf\refip\src\arch\compiler\rvds -I .\..\dk_apps\src\plf\refip\src\arch\ll\rvds -I .\..\dk_apps\src\plf\refip\src\driver\reg -I .\..\dk_apps\src\dialog\include -I .\include -I .\..\dk_apps\src\plf\refip\src\driver\gpio -I .\..\dk_apps\src\modules\app\api -I .\..\dk_apps\src\ip\ble\hl\src\rwble_hl -I ..\dk_apps\src\plf\refip\src\driver\wkupct_quadec --c99 --thumb -c-IC:\EE\KEIL\ARM\RV31\INC-IC:\EE\KEIL\ARM\CMSIS\Include-IC:\EE\KEIL\ARM\Inc\ARM-D__UVISION_VERSION="523"-o .\out\peripherals.o --omf_browse .\out\peripherals.crf --depend .\out\peripherals.d)
+I (.\..\dk_apps\src\dialog\include\global_io.h)(0x542BEC20)
+I (.\..\dk_apps\src\dialog\include\datasheet.h)(0x542BEC20)
+I (.\..\dk_apps\src\dialog\include\core_cm0.h)(0x54FC3260)
+I (C:\EE\KEIL\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
+I (.\..\dk_apps\src\dialog\include\core_cmInstr.h)(0x542BEC20)
+I (.\..\dk_apps\src\dialog\include\core_cmFunc.h)(0x542BEC20)
+I (.\include\peripherals.h)(0x55254434)
+I (.\include\gpio.h)(0x54FABDE3)
+I (.\..\dk_apps\src\plf\refip\src\arch\arch.h)(0x55266D87)
+I (.\..\dk_apps\src\plf\refip\src\arch\compiler\rvds\compiler.h)(0x542BEC20)
+I (C:\EE\KEIL\ARM\ARMCC\include\stdbool.h)(0x57F6AF78)
+I (.\..\dk_apps\src\plf\refip\src\arch\arch_sleep.h)(0x542BEC20)
+I (.\..\dk_apps\src\plf\refip\src\arch\ll\rvds\ll.h)(0x542BEC20)
+I (.\..\dk_apps\src\dialog\include\reg_intc.h)(0x5527F1E7)
+I (.\..\dk_apps\src\dialog\include\_reg_intc.h)(0x542BEC20)
+I (.\..\dk_apps\src\plf\refip\src\driver\reg\reg_access.h)(0x5527F13B)
+I (C:\EE\KEIL\ARM\ARMCC\include\string.h)(0x57F6AF78)
+I (.\..\dk_apps\src\dialog\include\ARMCM0.h)(0x542BEC20)
+I (.\..\dk_apps\src\dialog\include\system_ARMCM0.h)(0x542BEC20)
+F (.\src\main.c)(0x593EDEDF)(--c99 -c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork -I .\..\dk_apps\src\plf\refip\src\arch -I .\..\dk_apps\src\plf\refip\src\arch\compiler\rvds -I .\..\dk_apps\src\plf\refip\src\arch\ll\rvds -I .\..\dk_apps\src\plf\refip\src\driver\reg -I .\..\dk_apps\src\dialog\include -I .\include -I .\..\dk_apps\src\plf\refip\src\driver\gpio -I .\..\dk_apps\src\modules\app\api -I .\..\dk_apps\src\ip\ble\hl\src\rwble_hl -I ..\dk_apps\src\plf\refip\src\driver\wkupct_quadec --c99 --thumb -c-IC:\EE\KEIL\ARM\RV31\INC-IC:\EE\KEIL\ARM\CMSIS\Include-IC:\EE\KEIL\ARM\Inc\ARM-D__UVISION_VERSION="523"-o .\out\main.o --omf_browse .\out\main.crf --depend .\out\main.d)
+I (C:\EE\KEIL\ARM\ARMCC\include\stdio.h)(0x57F6AF78)
+I (.\..\dk_apps\src\dialog\include\global_io.h)(0x542BEC20)
+I (.\..\dk_apps\src\dialog\include\datasheet.h)(0x542BEC20)
+I (.\include\peripherals.h)(0x55254434)
+I (C:\EE\KEIL\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
+I (.\include\gpio.h)(0x54FABDE3)
+I (.\..\dk_apps\src\plf\refip\src\arch\arch.h)(0x55266D87)
+I (.\..\dk_apps\src\plf\refip\src\arch\compiler\rvds\compiler.h)(0x542BEC20)
+I (C:\EE\KEIL\ARM\ARMCC\include\stdbool.h)(0x57F6AF78)
+I (.\..\dk_apps\src\plf\refip\src\arch\arch_sleep.h)(0x542BEC20)
+I (.\..\dk_apps\src\plf\refip\src\arch\ll\rvds\ll.h)(0x542BEC20)
+I (.\..\dk_apps\src\dialog\include\reg_intc.h)(0x5527F1E7)
+I (.\..\dk_apps\src\dialog\include\_reg_intc.h)(0x542BEC20)
+I (.\..\dk_apps\src\plf\refip\src\driver\reg\reg_access.h)(0x5527F13B)
+I (C:\EE\KEIL\ARM\ARMCC\include\string.h)(0x57F6AF78)
+I (.\..\dk_apps\src\dialog\include\ARMCM0.h)(0x542BEC20)
+I (.\..\dk_apps\src\dialog\include\core_cm0.h)(0x54FC3260)
+I (.\..\dk_apps\src\dialog\include\core_cmInstr.h)(0x542BEC20)
+I (.\..\dk_apps\src\dialog\include\core_cmFunc.h)(0x542BEC20)
+I (.\..\dk_apps\src\dialog\include\system_ARMCM0.h)(0x542BEC20)
+I (.\include\spi.h)(0x55223DE9)
+I (.\include\pwm.h)(0x54FAF6A1)
+F (.\src\gpio.c)(0x54FC23C0)(--c99 -c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork -I .\..\dk_apps\src\plf\refip\src\arch -I .\..\dk_apps\src\plf\refip\src\arch\compiler\rvds -I .\..\dk_apps\src\plf\refip\src\arch\ll\rvds -I .\..\dk_apps\src\plf\refip\src\driver\reg -I .\..\dk_apps\src\dialog\include -I .\include -I .\..\dk_apps\src\plf\refip\src\driver\gpio -I .\..\dk_apps\src\modules\app\api -I .\..\dk_apps\src\ip\ble\hl\src\rwble_hl -I ..\dk_apps\src\plf\refip\src\driver\wkupct_quadec --c99 --thumb -c-IC:\EE\KEIL\ARM\RV31\INC-IC:\EE\KEIL\ARM\CMSIS\Include-IC:\EE\KEIL\ARM\Inc\ARM-D__UVISION_VERSION="523"-o .\out\gpio.o --omf_browse .\out\gpio.crf --depend .\out\gpio.d)
+I (.\..\dk_apps\src\plf\refip\src\arch\arch.h)(0x55266D87)
+I (C:\EE\KEIL\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
+I (.\..\dk_apps\src\plf\refip\src\arch\compiler\rvds\compiler.h)(0x542BEC20)
+I (C:\EE\KEIL\ARM\ARMCC\include\stdbool.h)(0x57F6AF78)
+I (.\..\dk_apps\src\plf\refip\src\arch\arch_sleep.h)(0x542BEC20)
+I (.\..\dk_apps\src\plf\refip\src\arch\ll\rvds\ll.h)(0x542BEC20)
+I (.\..\dk_apps\src\dialog\include\reg_intc.h)(0x5527F1E7)
+I (.\..\dk_apps\src\dialog\include\_reg_intc.h)(0x542BEC20)
+I (.\..\dk_apps\src\plf\refip\src\driver\reg\reg_access.h)(0x5527F13B)
+I (C:\EE\KEIL\ARM\ARMCC\include\string.h)(0x57F6AF78)
+I (.\..\dk_apps\src\dialog\include\ARMCM0.h)(0x542BEC20)
+I (.\..\dk_apps\src\dialog\include\global_io.h)(0x542BEC20)
+I (.\..\dk_apps\src\dialog\include\datasheet.h)(0x542BEC20)
+I (.\..\dk_apps\src\dialog\include\core_cm0.h)(0x54FC3260)
+I (.\..\dk_apps\src\dialog\include\core_cmInstr.h)(0x542BEC20)
+I (.\..\dk_apps\src\dialog\include\core_cmFunc.h)(0x542BEC20)
+I (.\..\dk_apps\src\dialog\include\system_ARMCM0.h)(0x542BEC20)
+I (.\include\gpio.h)(0x54FABDE3)
+F (.\src\spi.c)(0x55254C8D)(--c99 -c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork -I .\..\dk_apps\src\plf\refip\src\arch -I .\..\dk_apps\src\plf\refip\src\arch\compiler\rvds -I .\..\dk_apps\src\plf\refip\src\arch\ll\rvds -I .\..\dk_apps\src\plf\refip\src\driver\reg -I .\..\dk_apps\src\dialog\include -I .\include -I .\..\dk_apps\src\plf\refip\src\driver\gpio -I .\..\dk_apps\src\modules\app\api -I .\..\dk_apps\src\ip\ble\hl\src\rwble_hl -I ..\dk_apps\src\plf\refip\src\driver\wkupct_quadec --c99 --thumb -c-IC:\EE\KEIL\ARM\RV31\INC-IC:\EE\KEIL\ARM\CMSIS\Include-IC:\EE\KEIL\ARM\Inc\ARM-D__UVISION_VERSION="523"-o .\out\spi.o --omf_browse .\out\spi.crf --depend .\out\spi.d)
+I (C:\EE\KEIL\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
+I (.\..\dk_apps\src\dialog\include\global_io.h)(0x542BEC20)
+I (.\..\dk_apps\src\dialog\include\datasheet.h)(0x542BEC20)
+I (.\include\spi.h)(0x55223DE9)
+I (.\include\gpio.h)(0x54FABDE3)
+I (.\..\dk_apps\src\plf\refip\src\arch\arch.h)(0x55266D87)
+I (.\..\dk_apps\src\plf\refip\src\arch\compiler\rvds\compiler.h)(0x542BEC20)
+I (C:\EE\KEIL\ARM\ARMCC\include\stdbool.h)(0x57F6AF78)
+I (.\..\dk_apps\src\plf\refip\src\arch\arch_sleep.h)(0x542BEC20)
+I (.\..\dk_apps\src\plf\refip\src\arch\ll\rvds\ll.h)(0x542BEC20)
+I (.\..\dk_apps\src\dialog\include\reg_intc.h)(0x5527F1E7)
+I (.\..\dk_apps\src\dialog\include\_reg_intc.h)(0x542BEC20)
+I (.\..\dk_apps\src\plf\refip\src\driver\reg\reg_access.h)(0x5527F13B)
+I (C:\EE\KEIL\ARM\ARMCC\include\string.h)(0x57F6AF78)
+I (.\..\dk_apps\src\dialog\include\ARMCM0.h)(0x542BEC20)
+I (.\..\dk_apps\src\dialog\include\core_cm0.h)(0x54FC3260)
+I (.\..\dk_apps\src\dialog\include\core_cmInstr.h)(0x542BEC20)
+I (.\..\dk_apps\src\dialog\include\core_cmFunc.h)(0x542BEC20)
+I (.\..\dk_apps\src\dialog\include\system_ARMCM0.h)(0x542BEC20)
+F (.\src\pwm.c)(0x550A6D3B)(--c99 -c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork -I .\..\dk_apps\src\plf\refip\src\arch -I .\..\dk_apps\src\plf\refip\src\arch\compiler\rvds -I .\..\dk_apps\src\plf\refip\src\arch\ll\rvds -I .\..\dk_apps\src\plf\refip\src\driver\reg -I .\..\dk_apps\src\dialog\include -I .\include -I .\..\dk_apps\src\plf\refip\src\driver\gpio -I .\..\dk_apps\src\modules\app\api -I .\..\dk_apps\src\ip\ble\hl\src\rwble_hl -I ..\dk_apps\src\plf\refip\src\driver\wkupct_quadec --c99 --thumb -c-IC:\EE\KEIL\ARM\RV31\INC-IC:\EE\KEIL\ARM\CMSIS\Include-IC:\EE\KEIL\ARM\Inc\ARM-D__UVISION_VERSION="523"-o .\out\pwm.o --omf_browse .\out\pwm.crf --depend .\out\pwm.d)
+I (.\..\dk_apps\src\dialog\include\global_io.h)(0x542BEC20)
+I (.\..\dk_apps\src\dialog\include\datasheet.h)(0x542BEC20)
+I (.\include\pwm.h)(0x54FAF6A1)
+I (C:\EE\KEIL\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
+I (.\..\dk_apps\src\dialog\include\core_cm0.h)(0x54FC3260)
+I (.\..\dk_apps\src\dialog\include\core_cmInstr.h)(0x542BEC20)
+I (.\..\dk_apps\src\dialog\include\core_cmFunc.h)(0x542BEC20)
+I (C:\EE\KEIL\ARM\ARMCC\include\stdio.h)(0x57F6AF78)

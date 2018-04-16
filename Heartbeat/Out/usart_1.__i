@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork -I .\..\dk_apps\src\plf\refip\src\arch -I .\..\dk_apps\src\plf\refip\src\arch\compiler\rvds -I .\..\dk_apps\src\plf\refip\src\arch\ll\rvds -I .\..\dk_apps\src\plf\refip\src\driver\reg -I .\..\dk_apps\src\dialog\include -I .\include -I .\..\dk_apps\src\plf\refip\src\driver\gpio -I .\..\dk_apps\src\modules\app\api -I .\..\dk_apps\src\ip\ble\hl\src\rwble_hl -I ..\dk_apps\src\plf\refip\src\driver\wkupct_quadec --c99 --thumb -c
+-IC:\EE\KEIL\ARM\RV31\INC
+-IC:\EE\KEIL\ARM\CMSIS\Include
+-IC:\EE\KEIL\ARM\Inc\ARM
+-D__UVISION_VERSION="523"
+-o .\out\usart_1.o --omf_browse .\out\usart_1.crf --depend .\out\usart_1.d "include\usart\usart.c"

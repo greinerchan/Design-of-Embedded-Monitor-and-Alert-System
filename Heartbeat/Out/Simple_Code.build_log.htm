@@ -1,0 +1,47 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.23.0.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Xi Chen, BSC, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.23
+Toolchain Path:  C:\EE\KEIL\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.23
+Dialog DLL:      DARMCM1.DLL V1.17.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.23.0
+Dialog DLL:      TARMCM1.DLL V1.12.0.0
+ 
+<h2>Project:</h2>
+C:\Users\boy52\Desktop\project\DA14580\code\Heartbeat\Heartbeat\HR_TEST.uvproj
+Project File Date:  09/13/2017
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'C:\EE\KEIL\ARM\ARMCC\Bin'
+Rebuild target 'Cortex-M0 SDK - Simulator'
+assembling startup_CMSDK_CM0.s...
+compiling system_CMSDK.c...
+compiling peripherals.c...
+compiling main.c...
+compiling gpio.c...
+compiling spi.c...
+src\spi.c(224): warning:  #177-D: variable "dataRead"  was declared but never referenced
+  	uint16_t dataRead = 0;
+src\spi.c: 1 warning, 0 errors
+compiling pwm.c...
+linking...
+Program Size: Code=3672 RO-data=192 RW-data=980 ZI-data=880  
+FromELF: creating hex file...
+".\Out\Simple_Code.axf" - 0 Error(s), 1 Warning(s).
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

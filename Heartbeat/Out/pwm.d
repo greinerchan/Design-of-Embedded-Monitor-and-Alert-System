@@ -1,0 +1,9 @@
+.\out\pwm.o: src\pwm.c
+.\out\pwm.o: .\..\dk_apps\src\dialog\include\global_io.h
+.\out\pwm.o: .\..\dk_apps\src\dialog\include\datasheet.h
+.\out\pwm.o: .\include\pwm.h
+.\out\pwm.o: C:\EE\KEIL\ARM\ARMCC\Bin\..\include\stdint.h
+.\out\pwm.o: .\..\dk_apps\src\dialog\include\core_cm0.h
+.\out\pwm.o: .\..\dk_apps\src\dialog\include\core_cmInstr.h
+.\out\pwm.o: .\..\dk_apps\src\dialog\include\core_cmFunc.h
+.\out\pwm.o: C:\EE\KEIL\ARM\ARMCC\Bin\..\include\stdio.h
