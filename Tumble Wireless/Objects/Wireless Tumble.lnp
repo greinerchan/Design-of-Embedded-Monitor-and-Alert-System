@@ -1,0 +1,3 @@
+".\Objects\Wireless Tumble.obj" 
+TO ".\Objects\Wireless Tumble" 
+PRINT(".\Listings\Wireless Tumble.m51") RAMSIZE(256) 
